@@ -89,11 +89,22 @@ nav{
     color: black;
     font-size: 30px;
 }
-
-
-
-
-/*-------------------------Popular Header-----------------*/
+/*-------------------------Popular Destination-----------------*/
+#pop-image{
+    width:500px;
+}
+#text-dest{
+    padding: 50px;
+}
+.images-destination-top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.destination-container h1{
+    text-align: left;
+    font-size: 50px;
+}
 /*-------------------------Arriving to Wa-----------------*/
 /*----------Get on the Road----------------*/
 /*-------------------------More Reccomendations-----------*/
