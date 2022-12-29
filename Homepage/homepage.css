@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-image: url(Images/601873.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 3% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+   text-align: left;
+}
+.nav-links ul li{
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px;
+}
+.text-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.text h1{
+    font-size: 60px;
+}
+/*-------------------------Introduction-------------------*/
+.introduction{
+    padding: 60px;
+}
+.intro-text h1{
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: solid 5px;
+    font-size: 50px;
+    width: 50%;
+}
+.intro-text p{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+/*-------------------------Destination Header-------------*/
+.destination-reccomendations{
+    background-image: url(Images/wallpapersden.com_mount-rainier-usa-mountains_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+}
+.dr-text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+}
+.dr-text h1{
+    text-align: center;
+    font-size: 50px;
+}
+.dr-text h3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.button{
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-text h1{
+    color: black;
+    font-size: 30px;
+}
+
+
+
+
+/*-------------------------Popular Header-----------------*/
+/*-------------------------Arriving to Wa-----------------*/
+/*----------Get on the Road----------------*/
+/*-------------------------More Reccomendations-----------*/
+/*-------------------------Footer-------------------------*/
