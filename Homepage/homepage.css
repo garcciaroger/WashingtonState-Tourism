@@ -4,36 +4,29 @@
 }
 .header{
     background-color: black;
+    padding-left: 3rem;
+}
+#header-logo{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
 }
 nav{
     display: flex;
-    padding: 1.5% 5%;
     justify-content: space-between;
     align-items: center;
 }
 .nav-links{
    text-align: left;
+   padding-right: 3rem;
+   display: block;
+   margin-left: auto;
 }
 .nav-links ul li{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     display: inline-block;
-    padding: 10px;
-}
-.text-box{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    color: white;
-    transform: translate(-50%, -50%);
-}
-.text h1{
-    font-size: 60px;
-}
-.carousel-inner img{
-    height: 800px;
-    width: 100%;
-
+    padding: 1rem;
 }
 /*-------------------------Introduction-------------------*/
 .introduction{
@@ -90,20 +83,20 @@ nav{
     font-size: 30px;
 }
 /*-------------------------Popular Destination-----------------*/
-#pop-image{
-    width:500px;
+.popular-destination{
+    padding: 70px;
 }
-#text-dest{
-    padding: 50px;
+.popular-destination h1{
+  font-size: 3rem;
 }
-.images-destination-top{
+.card-container{
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
+    padding-bottom: 3rem;
 }
-.destination-container h1{
-    text-align: left;
-    font-size: 50px;
+.card-container2{
+    display: flex;
+    justify-content: space-evenly;
 }
 /*-------------------------Arriving to Wa-----------------*/
 /*----------Get on the Road----------------*/
