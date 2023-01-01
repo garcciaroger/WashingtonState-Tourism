@@ -92,13 +92,133 @@ nav{
 .card-container{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 .card-container2{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 5rem;
+}
+.card{
+    border:0px;
+    text-align: center;
+}
+.btn-primary{
+   width: 45%;
 }
 /*-------------------------Arriving to Wa-----------------*/
-/*----------Get on the Road----------------*/
+.arrivingtowa{
+    height: 50px;
+    padding-bottom: 500px;
+}
+.black-background{
+    padding-bottom: 50px;
+    background-color: black;
+    height: 250px;
+}
+#arrwa{
+    height: 400px;
+    width: 700px;
+}
+.background-container{
+    display: flex;
+}
+.background-text{
+    width: 30%;
+    padding-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.background-text h1{
+    font-size: 30px;
+    color: white;
+    text-align: center; 
+}
+.background-text p{
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+}
+#button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-------------------------Get on the Road----------------*/
+.get-on-the-road{
+    background-image: url(Images/washington-wa-north-cascades-highway.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+    padding: 100px;
+}
+.getontheroad-text{
+    text-align: center;
+    color: white;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+}
+.getontheroad-text h1{
+    font-size: 30px;
+}
+.getontheroad-text p{
+    font-size: 20px;;
+}
+#button2{
+    display: block;
+    margin-left: auto;
+}
 /*-------------------------More Reccomendations-----------*/
-/*-------------------------Footer-------------------------*/
+.recc-textbox{
+    padding: 70px;
+    text-align: center;
+}
+.recc-textbox h1{
+    font-size: 3rem;
+}
+.more-reccomendations{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+/*------------------------Footer-------------------------*/
+.footer{
+    background-image: url(Images/bzk50s6j40m71.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 30vh;
+}
+.footer{
+    padding-top: 80px;
+}
+.footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-link ul li{
+    font-size: 30px;
+    display: inline-block;
+    color: white;
+    padding: 1rem;
+}
+.social-media{
+    text-align: center;
+}
+.social-media img{
+    width: 50px;
+    height: 50px;
+}
+.social-media ul li{
+    display: inline-block;
+    padding: 1rem;
+}
