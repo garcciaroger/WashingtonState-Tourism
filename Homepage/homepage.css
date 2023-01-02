@@ -37,13 +37,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 .sub-header-image{
     display: grid;
     width: 70%;
 }
 #image2{
-    grid-column: 2/ span 2;
+    grid-column: 2/ span 3;
     grid-row: 1 / span 2;
 }
 #image1{
@@ -58,10 +59,10 @@
     display:block;
     margin-left: auto;
     text-align: center;
-    width: 40%;
+    width: 50%;
 }
 .subheader-text h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 .subheader-text p{
     font-size: 25px;
@@ -72,11 +73,11 @@
     display: flex;
 }
 .state-text{
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 .state-text h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 .state-text p{
     font-size: 25px;
@@ -86,11 +87,15 @@
 }
 /*-------------------Explore Wa---------------*/
 .wa-header-text{
-    margin: 100px;
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 50px;
 }
 .explore-wa{
-    margin: 100px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 #image-explore{
     width: 700px;
@@ -137,31 +142,64 @@
     grid-row: 2;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------------Call to action-------------------*/
+.calltoaction{
+    background-image: url(Images/wallpapersden.com_mount-rainier-usa-mountains_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 75px;
+}
+.more-rec-text h1{
+    text-align: center;
+    font: 50px;
+    margin-bottom: 50px;
+}
+#image-recc{
+    height: 300px;
+    width: 500px;
+}
+.container-recc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 25px;
+}
+.text-recc h1{
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-recc p{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----------------------Best Time to Visit-----------------*/
+#image-bttv{
+    height: 400px;
+    width: 700px;
+}
+.bttv{
+    display: flex;
+    margin: 100px;
+}
+.bttv-text{
+    width: 80%;
+    text-align: center;
+}
+.bttv-text h1{
+    font-size: 30px;
+}
+.bttv-text p{
+    font-size: 25px;
+}
 /*------------------------Footer-------------------------*/
 .footer{
     background-image: url(Images/bzk50s6j40m71.jpeg);
