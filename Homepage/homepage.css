@@ -3,187 +3,165 @@
     padding: 0%;
 }
 .header{
-    background-color: black;
-    padding-left: 3rem;
+    background-image: url(Images/601873.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
 }
-#header-logo{
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-}
-nav{
+.container-header{
+    padding: 5rem;
     display: flex;
-    justify-content: space-between;
+}
+.nav-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link ul li{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+/*---------------------Introduction----------*/
+.sub-header{
+    margin:100px
+}
+.container-header{
+    padding: 2px;
+}
+.container-sub-header{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.nav-links{
-   text-align: left;
-   padding-right: 3rem;
-   display: block;
-   margin-left: auto;
+.sub-header-image{
+    display: grid;
+    width: 70%;
 }
-.nav-links ul li{
-    color: white;
-    font-size: 30px;
-    display: inline-block;
-    padding: 1rem;
+#image2{
+    grid-column: 2/ span 2;
+    grid-row: 1 / span 2;
 }
-/*-------------------------Introduction-------------------*/
-.introduction{
-    padding: 60px;
+#image1{
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
 }
-.intro-text h1{
-    padding-bottom: 30px;
+.sub-header-image img{
+    height: 300px;
+    width: 475px;
+}
+.subheader-text{
+    display:block;
+    margin-left: auto;
     text-align: center;
-    border-bottom: solid 5px;
-    font-size: 50px;
-    width: 50%;
+    width: 40%;
 }
-.intro-text p{
-    width: 50%;
-    font-size: 30px;
-    text-align: center;
-}
-/*-------------------------Destination Header-------------*/
-.destination-reccomendations{
-    background-image: url(Images/wallpapersden.com_mount-rainier-usa-mountains_3840x2160.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    min-height: 50vh;
-    width: 100%;
-}
-.dr-text{
-    text-align: center;
-    color: white;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 40%;
-}
-.dr-text h1{
-    text-align: center;
+.subheader-text h1{
     font-size: 50px;
 }
-.dr-text h3{
-    text-align: center;
+.subheader-text p{
     font-size: 25px;
-    padding-bottom: 20px;
 }
-.button{
-    background-color: white;
-    border-radius: 30px;
-    padding: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.button-text h1{
-    color: black;
-    font-size: 30px;
-}
-/*-------------------------Popular Destination-----------------*/
-.popular-destination{
-    padding: 70px;
-}
-.popular-destination h1{
-  font-size: 3rem;
-}
-.card-container{
+/*--------------------State Region-----------*/
+.state-region{
+    margin: 100px;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1.5rem;
 }
-.card-container2{
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 5rem;
-}
-.card{
-    border:0px;
+.state-text{
+    width: 80%;
     text-align: center;
 }
-.btn-primary{
-   width: 45%;
+.state-text h1{
+    font-size: 50px;
 }
-/*-------------------------Arriving to Wa-----------------*/
-.arrivingtowa{
-    height: 50px;
-    padding-bottom: 500px;
+.state-text p{
+    font-size: 25px;
 }
-.black-background{
-    padding-bottom: 50px;
-    background-color: black;
-    height: 250px;
-}
-#arrwa{
-    height: 400px;
-    width: 700px;
-}
-.background-container{
-    display: flex;
-}
-.background-text{
-    width: 30%;
-    padding-top: 10px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-.background-text h1{
-    font-size: 30px;
-    color: white;
-    text-align: center; 
-}
-.background-text p{
-    font-size: 20px;
-    color: white;
-    text-align: center; 
-}
-#button1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/*-------------------------Get on the Road----------------*/
-.get-on-the-road{
-    background-image: url(Images/washington-wa-north-cascades-highway.webp);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    min-height: 60vh;
-    padding: 100px;
-}
-.getontheroad-text{
-    text-align: center;
-    color: white;
+#map{
     width: 50%;
-    display: block;
-    margin-left: auto;
 }
-.getontheroad-text h1{
-    font-size: 30px;
+/*-------------------Explore Wa---------------*/
+.wa-header-text{
+    margin: 100px;
 }
-.getontheroad-text p{
-    font-size: 20px;;
-}
-#button2{
-    display: block;
-    margin-left: auto;
-}
-/*-------------------------More Reccomendations-----------*/
-.recc-textbox{
-    padding: 70px;
-    text-align: center;
-}
-.recc-textbox h1{
-    font-size: 3rem;
-}
-.more-reccomendations{
+.explore-wa{
+    margin: 100px;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
 }
+#image-explore{
+    width: 700px;
+    height: 700px;
+}
+#grid-image{
+    width: 350px;
+    height: 350px;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-one{
+    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    grid-row: 1;
+
+}
+.grid-two{
+    grid-column: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+    grid-row: 1;
+
+}
+.grid-three{
+    grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    grid-row: 2;
+
+}
+.grid-four{
+    grid-column: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+    grid-row: 2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------------Footer-------------------------*/
 .footer{
     background-image: url(Images/bzk50s6j40m71.jpeg);
