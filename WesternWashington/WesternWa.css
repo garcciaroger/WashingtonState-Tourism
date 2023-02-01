@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-image: url(Images/bw5-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+.container-header{
+    padding: 5rem;
+    display: flex;
+}
+.nav-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link ul li{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
