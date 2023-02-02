@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-image: url(Images/Pike_Place_Market0-f58b040db89934b_f58b0ced-b1ca-91aa-c34e643859c15cd1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+.container-header{
+    padding: 5rem;
+    display: flex;
+}
+.nav-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link ul li{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: white;
+}
+/*----------------------------------Introduction---------------------------------*/
+.Introduction{
+    margin: 100px;
+}
+.introduction-text h1{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: .5em;
+}
+.introduction-text p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#grid-item{
+    width: 600px;
+    height: 600px;
+}
+.introduction-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+ 
+}
+/*---------------------------------Top Cities to Visit------------------------------*/
+.topcitites-header{
+    text-align: center;
+}
+.TopCities img{
+    width: 750px;
+    height: 500px;
+}
