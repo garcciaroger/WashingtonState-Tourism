@@ -7,7 +7,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .container-header{
     padding: 5rem;
@@ -40,23 +40,132 @@
     text-align: center;
     width: 50%;
     margin: auto;
+    padding-bottom: 50px;
 }
-#grid-item{
-    width: 600px;
-    height: 600px;
+#intro-image{
+    width: 450px;
+    height: 450px;
 }
-.introduction-image{
+.introduction-image-toprow{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
- 
+}
+.introduction-image-bottomrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*---------------------------------Top Cities to Visit------------------------------*/
-.topcitites-header{
+.placestovisit-header{
     text-align: center;
+    margin: 100px;
+    font-size: 4em;
 }
-.TopCities img{
+.left-card img{
     width: 750px;
     height: 500px;
+}
+.left-card{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 30px;
+    text-align: center;
+}
+.right-card img{
+    width: 750px;
+    height: 500px;
+}
+.right-card{
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 30px;
+    text-align: center;
+}
+.image-card{
+    display: flex;
+    margin-left: auto;
+}
+.topcity-paragraph{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.topcity-paragraph h2{
+    text-align: center;
+    font-size: 3em;
+}
+.topcity-paragraph p{
+    text-align: center;
+    font-size: 1.5em
+}
+/*---------------------------------Call to Action------------------------------*/
+.calltoaction{
+    background-image: url(Images/USA_Sunrises_and_sunsets_Mountains_Forests_Lake_613541_1920x1200.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+/*---------------------------------Food Reccomendations------------------------------*/
+.food-reccomendations{
+    margin: 100px;
+}
+.food-images{
+    display: flex;
+}
+#imageone{
+    width: 25%;
+}
+#imagetwo{
+    width: 25%;
+}
+#imagethree{
+    width: 25%;
+}
+/*---------------------------------Outdoor Reccomendations------------------------------*/
+.outdoor-reccomendations{
+    margin: 100px;
+}
+.outdoor-images{
+    display: flex;
+}
+/*---------------------------------Family Reccomendations------------------------------*/
+.family-reccomendations{
+    text-align: center;
+    margin: 100px;
+}
+.familyimage img{
+    width: 600px;
+}
+.family-reccomendations h1{
+    text-align: center;
+    font-size: 50px;
+}
+.family-reccomendations p{
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.family-image-toprow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.family-image-bottomrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*---------------------------------Footer------------------------------*/
+.footer{
+    background-image: url(Images/Untitled-design-4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
 }
