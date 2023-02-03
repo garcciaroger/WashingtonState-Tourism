@@ -4,6 +4,7 @@
 }
 .header{
     background-image: url(Images/Pike_Place_Market0-f58b040db89934b_f58b0ced-b1ca-91aa-c34e643859c15cd1.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -26,19 +27,33 @@
     padding: 1.5rem;
     color: white;
 }
+.page-header{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: solid;
+    border-color: white;
+    width: 25%;
+}
+.page-header h1{
+    font-size: 50px;
+    color: white;
+}
 /*----------------------------------Introduction---------------------------------*/
 .Introduction{
     margin: 100px;
 }
 .introduction-text h1{
     text-align: center;
-    width: 40%;
+    font-size: 50px;
+    width: 50%;
     margin: auto;
     margin-bottom: .5em;
 }
 .introduction-text p{
     text-align: center;
-    width: 50%;
+    font-size: 20px;
+    width: 60%;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -59,8 +74,10 @@
 /*---------------------------------Top Cities to Visit------------------------------*/
 .placestovisit-header{
     text-align: center;
-    margin: 100px;
-    font-size: 4em;
+    margin: 70px;
+}
+.placestovisit-header h1{
+    font-size: 50px;
 }
 .left-card img{
     width: 750px;
@@ -68,38 +85,37 @@
 }
 .left-card{
     display: flex;
-    margin-right: 150px;
-    margin-left: 150px;
-    padding: 30px;
+    margin-left: 125px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.right-card{
+    display: flex;
+    margin-right: 125px;
+    margin-bottom: 75px;
     text-align: center;
 }
 .right-card img{
     width: 750px;
     height: 500px;
 }
-.right-card{
-    display: flex;
-    margin-right: 150px;
-    margin-left: 150px;
-    padding: 30px;
-    text-align: center;
-}
+
 .image-card{
     display: flex;
     margin-left: auto;
 }
 .topcity-paragraph{
     text-align: center;
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 .topcity-paragraph h2{
     text-align: center;
-    font-size: 3em;
+    font-size: 50px
 }
 .topcity-paragraph p{
     text-align: center;
-    font-size: 1.5em
+    font-size: 20px;
 }
 /*---------------------------------Call to Action------------------------------*/
 .calltoaction{
@@ -124,10 +140,6 @@
     height: 200px;
     display: flex;
 }
-.grid-item span{
-    margin: auto;
-    font-size: 32px;
-}
 .grid-item:nth-of-type(1){
     grid-column: 1 / 2;
     grid-row: 2 / 2;
@@ -140,41 +152,29 @@
 .grid-item:nth-of-type(3){
     grid-column:  2/ 3;
     grid-row: 2 / 3;
-    transform: translate(40px,110px);
+    transform: translate(-60px,150px);
 }
 .Food{
-    margin: 100px
+    margin: 150px
 }
 .food-reccomendations{
     text-align: center;
     display: flex;
+    margin: auto;
 }
-
-.food-reccomendations h1{
-    text-align: center;
-
-}
-
-
-.food-reccomendations p{
-    text-align: center;
+.food-reccomendation-text{
     width: 50%;
 }
-
-
-
-
-/*---------------------------------Outdoor Reccomendations------------------------------*/
-.outdoor-reccomendations{
-    margin: 100px;
+.food-reccomendation-text h1{
+    font-size: 50px;
 }
-.outdoor-images{
-    display: flex;
+.food-reccomendation-text param{
+    font-size: 20px;
 }
 /*---------------------------------Family Reccomendations------------------------------*/
 .family-reccomendations{
     text-align: center;
-    margin: px;
+    margin: 150px;
 }
 .familyimage img{
     width: 600px;
@@ -205,6 +205,7 @@
     background-image: url(Images/Untitled-design-4.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     position: relative;
-    min-height: 50vh;
+    min-height: 40vh;
 }
