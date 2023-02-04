@@ -85,13 +85,13 @@
 }
 .left-card{
     display: flex;
-    margin-left: 125px;
+    margin-left: 50px;
     margin-bottom: 75px;
     text-align: center;
 }
 .right-card{
     display: flex;
-    margin-right: 125px;
+    margin-right: 75px;
     margin-bottom: 75px;
     text-align: center;
 }
@@ -177,7 +177,7 @@
     margin: 150px;
 }
 .familyimage img{
-    width: 600px;
+    width: 500px;
 }
 .family-reccomendations h1{
     text-align: center;
