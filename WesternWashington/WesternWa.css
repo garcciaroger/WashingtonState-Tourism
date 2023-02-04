@@ -26,3 +26,118 @@
     padding: 1.5rem;
     color: white;
 }
+/*-----------------Introduction----------*/
+#intro-image1{
+    width: 600px;
+    height: 400px;
+}
+.introduction{
+    display: flex;
+    margin: 100px;
+    padding-right: 100px;
+}
+.introduction-text h1{
+    font-size: 50px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.introduction-text p{
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+/*-------------Top Location to Visit------*/
+/*--seattle--*/
+.toplocation-header{
+    text-align: center;
+    margin: 50px;
+}
+.toplocation-header h1{
+    text-align: center;
+    font-size: 50px;
+}
+#seattle-image{
+    width: 700px;
+    height: 450px;
+}
+.seattle-area-image{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.seattle-area-text{
+    text-align: center;
+    margin: 100px;
+}
+/*--Cascade Range--*/
+#cascade-image{
+    width: 700px;
+    height: 450px;
+}
+.cascade-image{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
+}
+.right-card{
+    display: flex;
+    margin-left: 100px;
+}
+.cascade-text{
+    text-align: center;
+    margin: auto;
+}
+/*--Coast line--*/
+#coastline-image{
+    width: 700px;
+    height: 500px;
+}
+.coastline{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.coastline-text{
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*----------------Call to action--------------------*/
+.call-to-action{
+    background-image: url(Images/wallpapersden.com_seattle-united-states-washington_2560x1440.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+/*-----------------Attractions for family-----------*/
+
+
+/*-----------------Attractions for outdoor-----------*/
+#grid-image{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+.Attractions-for-family{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+
+.outdoor-grid-item{
+    width: 600px;
+    height: 600px;
+}
